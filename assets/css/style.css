@@ -468,13 +468,12 @@ Button style
 }
 
 .btn-skin {
-  border: 2px solid #fff5ec;
+  background-color: #bfa67a;
   color: #fff5ec;
-  background-color: transparent;
 }
 .btn-skin:hover, .btn-skin:focus {
-  background: #fff5ec;
-  color: #333;
+  background: #333;
+  color: #fff5ec;
 }
 
 .btn-link {
@@ -510,7 +509,7 @@ Top bar style
   height: 40px;
   line-height: 40px;
   padding: 0px 10px;
-  color: #fff5ec;
+  color: #fff;
   text-align: center;
 }
 .top-bar ul li a:hover {
@@ -528,13 +527,13 @@ navigation start
 */
 /********navbar fullscreen ***********/
 .navbar-light {
-  background-color: #fff5ec;
+  background-color: #fff;
   border: 0px;
   z-index: 999 !important;
   width: 100%;
   left: 0;
   padding: 10px 0;
-  border-bottom: 1px solid #fff5ec;
+  border-bottom: 1px solid #eee;
 }
 
 .navbar-nav .nav-link {
