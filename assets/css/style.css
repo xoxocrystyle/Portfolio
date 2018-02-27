@@ -468,12 +468,13 @@ Button style
 }
 
 .btn-skin {
-  background-color: #bfa67a;
+  border: 2px solid #fff5ec;
   color: #fff5ec;
+  background-color: transparent;
 }
 .btn-skin:hover, .btn-skin:focus {
-  background: #333;
-  color: #fff5ec;
+  background: #fff5ec;
+  color: #333;
 }
 
 .btn-link {
