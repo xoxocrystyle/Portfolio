@@ -1175,7 +1175,7 @@ Tab style
 }
 
 #aboutMeImg{
-  background-image: url("/assets/images/portait.png");
+  background-image: url("https://i.imgur.com/fjdFeR7.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1187,20 +1187,16 @@ Tab style
     padding: 1rem;
 }
 
-.skill-list{
-  padding: 0;
-  margin: 0;
-  max-width: 100%;
-  min-width: 100%;
-}
+/* skill list */
+/* .skill-list{
+  display: inline-block;
+}*/
 
 .skill-list li {
   display: inline-block;
   list-style-type: none;
   min-width: 30%;
-  max-height: 100%;
-  padding: 0;
-  margin: 0;
+  max-height: 10%;
 } 
 
 /*
@@ -1280,8 +1276,9 @@ Footer styles
 */
 .footer {
   padding-top: 30px;
-  background: #17181c;
+  background: #292929;
   font-size: 13px;
+  opacity: .8;
 }
 .footer span {
   color: #fff;
@@ -1426,7 +1423,7 @@ Footer styles
 
 /**contact**/
 .contact-section {
-  background-color: #17181c;
+  background-color: #292929;
 }
 
 .xone-contact .form-control {
