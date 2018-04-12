@@ -37,7 +37,7 @@
         singlePageCallback: function(url, element) {
             // to update singlePage content use the following method: this.updateSinglePage(yourContent)
             var t = this;
-
+            debugger;
             $.ajax({
                     url: url,
                     type: 'GET',
