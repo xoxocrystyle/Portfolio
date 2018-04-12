@@ -1,5 +1,8 @@
-$('.xone-contact').submit(function() {
-		var $form		= $(this);
+$('.xone-contact button[name=submit]').click(function() {
+	console.log('submitted');
+	event.preventDefault();
+	
+		var $form		= $(this).parents('form');
 		var submitData	= $form.serialize();
 		var $email		= $form.find('input[name="email"]');
 		var $name		= $form.find('input[name="name"]');
@@ -16,7 +19,7 @@ $('.xone-contact').submit(function() {
 		
 		$.ajax({ // Send an offer process with AJAX
 			type: 'POST',
-			url: '../contact_form/process-contact.php',
+			url: 'assets/contact_form/process-contact.php',
 			data: submitData + '&action=add',
 			dataType: 'html',
 			success: function(msg){
@@ -42,3 +45,22 @@ $('.xone-contact').submit(function() {
 		return false;
 	});
 
+
+// $(document).ready(function(){
+
+
+//     var from,to,subject,text;
+//     $("#send_email").submit(function(){      
+//         to=$("#to").val();
+//         subject=$("#subject").val();
+//         text=$("#content").val();
+//         $("#message").text("Sending E-mail...Please wait");
+//         $.get("http://localhost:3000/send",{to:to,subject:subject,text:text},function(data){
+//         if(data=="sent")
+//         {
+//             $("#message").empty().html("Email is been sent. Thankyou!");
+//         }
+
+// });
+//     });
+// });
