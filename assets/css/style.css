@@ -108,6 +108,9 @@ h6 {
 
 .lead {
   line-height:  1.2rem;
+  color: #fff5ec;
+  /* font-weight: 100 !important;  */
+
 }
 
 button, input, optgroup, select, textarea {
@@ -519,7 +522,7 @@ Top bar style
 .top-bar ul.top-socials li a {
   font-size: 20px;
   width: auto;
-  padding: 0px 3px;
+  padding: 12px 3px;
   text-align: center;
 }
 
